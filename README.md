@@ -1,10 +1,10 @@
-# AMCP — AI Memory Communication Protocol
+﻿# AMCP — AI Memory Communication Protocol
 # AMCP — AI 记忆通信协议
 
 **Version / 版本**: `v1.0.0` · DRAFT-RFC-FINAL  
 **Status / 状态**: ![Active](https://img.shields.io/badge/status-active-brightgreen) Active · 活跃  
 **License / 许可**: Apache 2.0  
-**Community / 社区**: [stepmind.org](https://stepmind.org) · [Discussions](https://github.com/stepmind/amcp/discussions)
+**Community / 社区**: [stepmind-amcp.github.io](https://stepmind-amcp.github.io) · [Discussions](https://github.com/stepmind-amcp/amcp/discussions)
 
 ---
 
@@ -110,7 +110,7 @@ After AMCP / AMCP 之后:
 ### Read the Spec / 阅读规范
 
 ```bash
-git clone https://github.com/stepmind/amcp
+git clone https://github.com/stepmind-amcp/amcp
 cd amcp
 
 # Machine-readable full spec / 机器可读完整规范
@@ -146,9 +146,9 @@ See [`spec/conformance/level-1.md`](spec/conformance/level-1.md) for full test d
 
 | Language | Repository | Conformance Level | Status |
 |----------|-----------|-------------------|--------|
-| Python | [`stepmind/amcp-python`](https://github.com/stepmind/amcp-python) | L1 target | 🚧 In development |
-| Go | [`stepmind/amcp-go`](https://github.com/stepmind/amcp-go) | L1 target | 📋 Planned |
-| TypeScript | [`stepmind/amcp-ts`](https://github.com/stepmind/amcp-ts) | L1 target | 📋 Planned |
+| Python | [`stepmind/amcp-python`](https://github.com/stepmind-amcp/amcp-python) | L1 target | 🚧 In development |
+| Go | [`stepmind/amcp-go`](https://github.com/stepmind-amcp/amcp-go) | L1 target | 📋 Planned |
+| TypeScript | [`stepmind/amcp-ts`](https://github.com/stepmind-amcp/amcp-ts) | L1 target | 📋 Planned |
 
 **Want to build one? / 想自己实现？** Open an issue and we'll coordinate.  
 开一个 issue，我们会协调支持。
@@ -157,8 +157,8 @@ See [`spec/conformance/level-1.md`](spec/conformance/level-1.md) for full test d
 
 ## Conformance Program / 一致性认证
 
-Any implementation that passes our conformance test suite may register at [`stepmind/amcp-registry`](https://github.com/stepmind/amcp-registry) and use the AMCP conformance badge.  
-任何通过我们一致性测试套件的实现都可以在 [`stepmind/amcp-registry`](https://github.com/stepmind/amcp-registry) 注册并使用 AMCP 认证徽章。
+Any implementation that passes our conformance test suite may register at [`stepmind/amcp-registry`](https://github.com/stepmind-amcp/amcp-registry) and use the AMCP conformance badge.  
+任何通过我们一致性测试套件的实现都可以在 [`stepmind/amcp-registry`](https://github.com/stepmind-amcp/amcp-registry) 注册并使用 AMCP 认证徽章。
 
 | Level | Description / 说明 | Tests / 测试项 |
 |-------|-------------------|--------------|
@@ -217,7 +217,7 @@ We welcome all contributions. Start here:
 - 🔧 **Implement** — Build an AMCP node, run conformance tests / 实现AMCP节点，运行一致性测试
 - 📝 **RFC** — Propose protocol extensions / 提议协议扩展
 
-**Good first issues / 新手任务**: [`good first issue`](https://github.com/stepmind/amcp/labels/good%20first%20issue)
+**Good first issues / 新手任务**: [`good first issue`](https://github.com/stepmind-amcp/amcp/labels/good%20first%20issue)
 
 Full guide: [CONTRIBUTING.md](CONTRIBUTING.md)  
 完整指南：[CONTRIBUTING.md](CONTRIBUTING.md)
@@ -228,8 +228,8 @@ Full guide: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 | Channel / 渠道 | Link |
 |---------------|------|
-| 🌐 Website / 网站 | [stepmind.org](https://stepmind.org) |
-| 💬 Discussions | [github.com/stepmind/amcp/discussions](https://github.com/stepmind/amcp/discussions) |
+| 🌐 Website / 网站 | [stepmind-amcp.github.io](https://stepmind-amcp.github.io) |
+| 💬 Discussions | [github.com/stepmind-amcp/amcp/discussions](https://github.com/stepmind-amcp/amcp/discussions) |
 | 📅 Monthly sync / 月度同步 | First Thursday UTC 14:00 / 每月第一周四 UTC 14:00 |
 
 ---
@@ -250,5 +250,5 @@ See [LICENSE](LICENSE) for full terms. / 完整条款见 [LICENSE](LICENSE)。
 
 ---
 
-*StepMind Community · © 2026 · stepmind.org*  
+*StepMind Community · © 2026 · stepmind-amcp.github.io*  
 *逐步思考，无限进化 · Step by Step, Infinite Evolution*
